@@ -33,7 +33,6 @@ class SharkWiFi(windget_sharkwifi.Ui_Form):
         while pos < len(content):
             num1 = get_a_num(content[pos])
             pos += 1
-            #print(len(content), content[pos], num1, pos)
             if num1 != -1:
                 if pos == len(content):  # If this is the last char, write it to bin file
                     length += 1
